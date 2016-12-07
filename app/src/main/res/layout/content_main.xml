@@ -40,17 +40,18 @@
     </LinearLayout>
 
     <Button
-        android:layout_below="@id/editArea"
         android:id="@+id/addButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/editArea"
         android:text="Add" />
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/addButton"/>
+        android:layout_below="@id/addButton"
+        android:paddingBottom="50dp"/>
 
     <Button
         android:id="@+id/btnDelete"
